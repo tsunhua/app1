@@ -4,6 +4,8 @@
 
 技術: Vue3 + Gin
 
+![Preivew](https://raw.githubusercontent.com/tsunhua/app1/main/priview.png)
+
 ## 啟動
 
 ```bash

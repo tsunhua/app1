@@ -6,6 +6,8 @@ Integrate ALL local application in ONE.
 
 TECH: Vue3 + Gin
 
+![Preivew](https://raw.githubusercontent.com/tsunhua/app1/main/priview.png)
+
 ## Startup
 
 ```bash
