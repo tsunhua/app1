@@ -2,7 +2,7 @@
 
 [简体中文](https://github.com/tsunhua/app1/blob/main/README-ZH.md) ｜ [繁體中文](https://github.com/tsunhua/app1/blob/main/README-ZHT.md)
 
-Integrate ALL local application in ONE.
+Integrate ALL local applications in ONE.
 
 TECH: Vue3 + Gin
 
