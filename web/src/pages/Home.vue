@@ -13,7 +13,7 @@ const handleClickEvent = (path) => {
   openApp(path)
 }
 
-const colors = ['#3F51B5', '#FF9800', '#4CAF50', '#FF5722', '#03A9F4']
+const colors = ['#3F51B5', '#4CAF50']
 
 </script>
 
@@ -28,10 +28,10 @@ const colors = ['#3F51B5', '#FF9800', '#4CAF50', '#FF5722', '#03A9F4']
       </v-expansion-panel-title>
       <v-expansion-panel-text>
         <v-row justify="start" no-gutters>
-          <v-col cols="2" no-gutters class="ml-3 mt-3 mb-3" v-for="(y, index) in x.sites">
+          <div class="ms-4 mt-3 mb-3" v-for="(y, index) in x.sites">
             <Card :bg-color="colors[Math.floor(index % colors.length)]" action="进入" :title="y['name']"
               :sub-title="y['desc']" :icon="y['icon']" @click="handleClickEvent(y['path'])" />
-          </v-col>
+          </div>
         </v-row>
       </v-expansion-panel-text>
     </v-expansion-panel>

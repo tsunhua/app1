@@ -26,7 +26,7 @@ defineEmits(['click']);
 
 </script>
 <template>
-	<v-card :color="bgColor" max-width="200" class="pt-1">
+	<v-card :color="bgColor" width="200" class="pt-1">
 		<div class="d-flex flex-no-wrap justify-space-between">
 			<div>
 				<v-card-title class="text-h6">

@@ -10,23 +10,11 @@ import * as directives from 'vuetify/directives'
 import "@mdi/font/css/materialdesignicons.css";
 import { aliases, mdi } from "vuetify/lib/iconsets/mdi";
 
-// Router
-// import VueRouter from 'vue-router'
-import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from './pages/Home.vue'
 import Login from './pages/Login.vue'
 
 const app = createApp(App)
-
-const global = {
-	'BASE_URL': 'http://127.0.0.1:8888',
-}
-for (const key in global) {
-	if (global.hasOwnProperty(key)) {
-		const value = global[key];
-		app.provide(key, value)
-	}
-}
 
 const vuetify = createVuetify({
 	theme: {
