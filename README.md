@@ -19,6 +19,8 @@ cd ..
 go run *.go
 ```
 
+Then open `http://127.0.0.1:8888`, enjoy app1.
+
 ## Ship
 
 1. config your applications in `app.prod.toml`.
