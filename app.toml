@@ -1,0 +1,33 @@
+ip = "127.0.0.1"
+port = 6666
+secret = "DO_NOT_USE_IN_PROB"
+
+[[users]]
+name = "test"
+password = "12345678"
+
+[[groups]]
+name = "AI"
+icon = "mdi-robot-happy-outline"
+[[groups.sites]]
+desc = "Stable Diffusion 在线绘图"
+icon = "mdi-palette-outline"
+name = "AI 绘图"
+path = "draw"
+port = 8000
+[[groups.sites]]
+desc = "ChatGPT 人工智能助手"
+icon = "mdi-chat-processing-outline"
+name = "ChatGPT"
+path = "gpt"
+port = 8001
+
+[[groups]]
+icon = "mdi-semantic-web"
+name = "资源"
+[[groups.sites]]
+desc = "Alist 网盘"
+icon = "mdi-harddisk"
+name = "网盘"
+path = "alist"
+port = 9000
