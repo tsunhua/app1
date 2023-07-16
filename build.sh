@@ -8,6 +8,7 @@ echo "[1] Building web"
 mkdir -p "${target}/web"
 cd web
 npm run build
+rm -rf "${target}/web"
 cp -rf dist "${target}/web"
 
 echo "[2] Building app1"
