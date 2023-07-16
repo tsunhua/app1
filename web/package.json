@@ -10,7 +10,6 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@mdi/font": "^7.2.96",
     "axios": "^1.4.0",
     "toml": "^3.0.0",
     "vue": "^3.3.4",
@@ -18,6 +17,7 @@
     "vuetify": "^3.3.7"
   },
   "devDependencies": {
+    "@mdi/font": "^7.2.96",
     "@rushstack/eslint-patch": "^1.2.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/eslint-config-prettier": "^7.1.0",
