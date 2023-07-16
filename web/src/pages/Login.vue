@@ -35,12 +35,12 @@ const onLoginClick = async () => {
 
 <template>
   <h1 class="font-weight-bold mt-6 mb-8 text-basil mx-auto">
-    Login
+    Log in App1
   </h1>
-  <v-sheet width="360" class="mx-auto pa-4" rounded>
+  <v-sheet style="min-width: 300px; max-width: 360px;width: max-content;" class="mx-auto pa-4" rounded>
     <v-form fast-fail @submit.prevent>
       <v-text-field v-model="name" label="用户名" :rules="nameRules"></v-text-field>
-      <v-text-field v-model="password" label="密码" :rules="passwordRules"></v-text-field>
+      <v-text-field v-model="password" label="密码" :rules="passwordRules" type="password"></v-text-field>
       <v-btn prepend-icon="mdi-login" color="green" type="submit" size="large" block class="mt-4 pa-4"
         :onclick="onLoginClick">登录</v-btn>
     </v-form>
